@@ -3,7 +3,7 @@ package edu.gatech.oad.antlab.person;
 /**
  *  A simple class for person 4
  *  returns their name and a
- *  modified string 
+ *  modified string
  *  
  *  @author Bob
  *  @version 1.1
@@ -31,7 +31,11 @@ public class Person4 {
      */
     private String calc(String input) {
       //Person 4 put your implementation here
-      return null;
+      String[] str2 = new String[input.length()];
+      for (int i = 0; i < input.length(); i++) {
+        str[i] = str[i] + 1;
+      }
+      return str2;
     }
     
     /**
