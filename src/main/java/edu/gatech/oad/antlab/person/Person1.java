@@ -23,7 +23,7 @@ public class Person1 {
 	 * This method should take the string
 	 * input and return its characters rotated
 	 * 2 positions.
-	 * given "gtg123b" it should return
+	 * Given "gtg123b" it should return
 	 * "g123bgt".
 	 *
 	 * @param input the string to be modified
