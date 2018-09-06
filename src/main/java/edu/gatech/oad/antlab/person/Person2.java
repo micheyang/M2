@@ -31,7 +31,22 @@ public class Person2 {
 	 */
 	private String calc(String input) {
 	  //Person 2 put your implementation here
-	  return null;
+		String result = "";
+		int len = input.length();
+		char orig[] = new char[len];
+		for (int i = 0; i < len; i++) {
+			orig[i] = input.charAt(i);
+		}
+
+		int index;
+		for (int i = 0; i < len; i++) {
+			index = (int)(Math.random() * (len - i));
+			result += orig[index];
+			for (int j = index + 1; j < len; j++) {
+				orig[j - 1] = orig[j];
+			}
+		}
+	  return result;
 	}
 	/**
 	 * Return a string rep of this object
