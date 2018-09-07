@@ -33,9 +33,9 @@ public class Person4 {
       //Person 4 put your implementation here
       String[] str2 = new String[input.length()];
       for (int i = 0; i < input.length(); i++) {
-        str[i] = str[i] + 1;
+        str2[i] = str2[i] + 1;
       }
-      return str2;
+      return str2[str2.length - 1];
     }
     
     /**
